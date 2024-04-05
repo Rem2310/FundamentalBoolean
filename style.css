@@ -1,0 +1,70 @@
+/* SELETTORE {
+  proprieta: valore;
+  proprieta: valore;
+} */
+*{
+  font-family: arial;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+.all{
+  width: 90%;
+  height: 90%;
+  padding: 100px;
+  background-color: black;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0.7;
+  margin: auto;
+  color: white;
+}
+
+.logo{
+  text-align: center;
+}
+
+
+h1{
+  color: lime;
+  text-align: center;
+}
+
+#pulsanti{
+  background-color: lime;
+  padding: 15px;
+  margin: 25px;
+  text-align: center;
+}
+
+.barra1{
+  background-color: orange;
+    height: 25px;
+    padding: 5px;
+    width: 50%;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+}
+
+.barra2{
+  background-color: green;
+    height: 25px;
+    padding: 5px;
+    width: 75%;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+}
+.barra3{
+  background-color: red;
+    height: 25px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: square;
+}
